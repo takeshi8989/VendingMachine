@@ -1,0 +1,97 @@
+.box{
+    height: 18em;
+    width: 100%;
+}
+
+.slider-show{
+    height: 180px;
+    width: 220px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+.product{
+    height: 100%;;
+    width: 100%;
+}
+
+#purchase{
+    width: 40%;
+}
+
+p{
+    line-height: 0.5;
+    font-size: 20;
+}
+
+.h-80{
+    height: 80px;
+}
+
+.h-220{
+    height: 220px;
+}
+
+.product-btn{
+    height: 40px;
+    width: 40px;
+}
+
+.expand-animation{
+    animation: deplete 1s linear reverse forwards;
+}
+
+.deplete-animation{
+    animation: deplete 1s linear forwards;
+}
+
+
+@keyframes deplete{
+    0%{
+        width: 100%;
+        opacity: 1;
+    }
+    100%{
+        width: 0%;
+        opacity: 0;
+    }
+}
+
+
+
+.bg-red{
+    background-color: red;
+}
+
+.bg-orange{
+    background-color: orange;
+}
+
+.bg-purple{
+    background-color: purple;
+}
+
+.bg-yellow{
+    background-color: yellow;
+}
+
+.bg-greenyellow{
+    background-color: greenyellow;
+}
+
+.bg-pink{
+    background-color: pink;
+}
+
+.bg-green{
+    background-color: green;
+}
+
+.bg-gold{
+    background-color: gold;
+}
+
+.bg-hotpink{
+    background-color: hotpink;
+}
